@@ -1,0 +1,34 @@
+# Entorno virtual
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.build/
+
+# Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datos grandes y salidas (mantener raw pequeño en git, ignorar procesados pesados)
+data/processed/
+*.parquet
+*.geojson
+
+# Mapas: mantener el MGN actual, ignorar copias simplificadas o temporales
+*.tmp
+*.bak
+
+# Dashboard / secretos
+.streamlit/secrets.toml
+
+# Sistema y editores
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.log

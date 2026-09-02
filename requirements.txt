@@ -1,0 +1,18 @@
+# Base - lectura, limpieza y visualización simple
+pandas
+numpy
+matplotlib
+
+# Notebooks
+notebook
+ipykernel
+
+# Mapas (SHAPEFILE DANE en data/geodata)
+geopandas
+folium
+
+# Clustering no supervisado (riesgo energético)
+scikit-learn
+
+# Dashboard final (app/dashboard.py)
+streamlit
