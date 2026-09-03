@@ -2,14 +2,21 @@
 pandas
 numpy
 matplotlib
+seaborn
 
 # Notebooks
 notebook
 ipykernel
 
+# Consultas SQL en el EDA
+duckdb
+
 # Mapas (SHAPEFILE DANE en data/geodata)
 geopandas
 folium
+
+# Treemap de la matriz eléctrica
+squarify
 
 # Clustering no supervisado (riesgo energético)
 scikit-learn
