@@ -13,11 +13,6 @@ __pycache__/
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
-# Datos grandes y salidas (mantener raw pequeño en git, ignorar procesados pesados)
-data/processed/
-*.parquet
-*.geojson
-
 # Mapas: mantener el MGN actual, ignorar copias simplificadas o temporales
 *.tmp
 *.bak
