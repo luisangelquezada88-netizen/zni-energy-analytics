@@ -15,8 +15,8 @@ duckdb
 geopandas
 folium
 
-# Treemap de la matriz eléctrica
-squarify
+# Treemap interactivo de la matriz eléctrica
+plotly
 
 # Clustering no supervisado (riesgo energético)
 scikit-learn
