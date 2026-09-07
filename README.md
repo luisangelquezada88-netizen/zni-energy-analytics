@@ -4,6 +4,32 @@ Este repositorio constituye el desarrollo posterior de mi tesis de grado, el cua
 
     Quezada, L. A. (2024). En camino a una transición energética justa : un análisis de gobernanza para las Zonas No Interconectadas. http://hdl.handle.net/10554/69107
 
+## Tablero público
+
+Explore los resultados sin instalar nada: [https://zni-energy-analytics.streamlit.app/](https://zni-energy-analytics.streamlit.app/)
+
+## Cómo reproducir el proyecto
+
+Con Docker (recomendado, un comando):
+
+```bash
+docker compose up
+```
+
+Luego abra http://localhost:8501 en su navegador.
+
+Sin Docker, con entorno virtual:
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+streamlit run app/dashboard.py
+```
+
+Los cuadernos se corren en orden: `01-data-wrangling.ipynb`, `02-exploratory-data-analysis.ipynb`, `03-machine-learning.ipynb`.
+
+## Ciencia de datos para la política pública
 
 El uso de herramientas de software e inteligencia artificial son de gran utilidad en la construcción de soluciones innovadoras a retos de gran complejidad como la transición energética. Por ende, además de la descripción tanto cuantitativa como cualitativa del fenómeno y la emisión de lineamientos de política (presentes en la investigación), en el presente repositorio se aumentan las capacidades de exploración estadística, se generan consultas SQL y se construye un algoritmo no supervisado de Machine Learning para la identificación del riesgo energético, insumos que alimentan la app que despliega el tablero de control de la investigación.
 
